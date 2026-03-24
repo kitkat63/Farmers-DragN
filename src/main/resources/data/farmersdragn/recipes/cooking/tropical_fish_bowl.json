@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "dragnpets:tropical_fish_fillet"
+    },
+    {
+      "item": "dragnpets:tropical_fish_fillet"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdragn:tropical_fish_bowl"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

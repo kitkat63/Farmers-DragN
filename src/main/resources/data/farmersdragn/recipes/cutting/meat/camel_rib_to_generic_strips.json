@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:camel_rib"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "dragnlivestock:game_strips"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

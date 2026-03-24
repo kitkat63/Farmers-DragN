@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "dragnpets:tropical_fish_fillet"
+    },
+    {
+      "item": "dragnpets:tropical_fish_roe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdragn:cat_food"
+  }
+}

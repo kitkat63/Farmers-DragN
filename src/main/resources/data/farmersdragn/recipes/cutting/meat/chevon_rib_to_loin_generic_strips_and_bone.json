@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:chevon_rib"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "dragnlivestock:chevon_loin"
+    },
+    {
+      "count": 2,
+      "item": "dragnlivestock:generic_strips"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:bone"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

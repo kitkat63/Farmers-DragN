@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:salmon_fillet"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdelight:salmon_slice"
+  }
+}

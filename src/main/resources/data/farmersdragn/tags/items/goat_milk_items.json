@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "dragnlivestock:goat_milk_jug", "required": false },
+    { "id": "hearthandharvest:goat_milk_bottle", "required": false }
+  ]
+}

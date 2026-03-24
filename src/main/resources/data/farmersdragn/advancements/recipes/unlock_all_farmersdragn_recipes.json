@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "login": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "farmersdragn:cooking/bosintang",
+      "farmersdragn:cooking/cazuela_de_llama",
+      "farmersdragn:cooking/chevon_stew_classic",
+      "farmersdragn:cooking/farikal_stew",
+      "farmersdragn:cooking/swedish_meatballs",
+      "farmersdragn:cooking/sweet_berry_wolf",
+      "farmersdragn:cooking/tropical_fish_bowl",
+      "farmersdragn:cooking/tropical_roe_bowl",
+      "farmersdragn:cutting/dragn_cheese_to_farm_cheese_cut",
+      "farmersdragn:cutting/dragn_goat_cheese_to_goat_cheese_cut",
+      "farmersdragn:cutting/dragn_llama_cheese_to_llama_cheese_cut",
+      "farmersdragn:cutting/dragn_sheep_cheese_to_sheep_cheese_cut",
+      "farmersdragn:cutting/hearthandharvest_goat_slice_to_goat_cheese_cut",
+      "farmersdragn:simple/cat_food",
+      "farmersdragn:simple/dog_food",
+      "farmersdragn:simple/egg_toast",
+      "farmersdragn:simple/fish_sandwich",
+      "farmersdragn:simple/fishermans_feast",
+      "farmersdragn:simple/goat_cheese_toast",
+      "farmersdragn:simple/honey_sweet_cheese",
+      "farmersdragn:simple/kitty_fritters",
+      "farmersdragn:simple/roe_rice_bowl",
+      "farmersdragn:simple/sweet_jerky_from_honey",
+      "farmersdragn:simple/sweet_jerky_from_sugar"
+    ]
+  }
+}

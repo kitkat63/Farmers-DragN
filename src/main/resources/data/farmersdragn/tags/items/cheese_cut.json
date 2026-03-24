@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdragn:farm_cheese_cut",
+      "required": false
+    },
+    {
+      "id": "farmersdragn:goat_cheese_cut",
+      "required": false
+    },
+    {
+      "id": "farmersdragn:llama_cheese_cut",
+      "required": false
+    },
+    {
+      "id": "farmersdragn:sheep_cheese_cut",
+      "required": false
+    },
+    {
+      "id": "hearthandharvest:cheddar_cheese_slice",
+      "required": false
+    },
+    {
+      "id": "hearthandharvest:goat_cheese_slice",
+      "required": false
+    },
+    {
+      "id": "brewinandchewin:flaxen_cheese_wedge",
+      "required": false
+    },
+    {
+      "id": "brewinandchewin:scarlet_cheese_wedge",
+      "required": false
+    }
+  ]
+}

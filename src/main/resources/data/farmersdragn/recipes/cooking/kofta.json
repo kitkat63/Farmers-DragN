@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 250,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "farmersdragn:camel_meat"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "farmersdragn:kofta"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

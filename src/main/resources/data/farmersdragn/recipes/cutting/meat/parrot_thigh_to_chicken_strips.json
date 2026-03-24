@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dragnpets:parrot_thigh"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "dragnlivestock:chicken_strips"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

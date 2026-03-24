@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:llama"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "dragnlivestock:llama_loin"
+    },
+    {
+      "count": 2,
+      "item": "dragnlivestock:llama_rib"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

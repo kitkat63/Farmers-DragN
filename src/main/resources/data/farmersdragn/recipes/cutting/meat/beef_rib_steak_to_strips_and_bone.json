@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:beef_rib_steak"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "dragnlivestock:beef_strips"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:bone"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:tropical_fish"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "dragnpets:tropical_fish_fillet"
+    },
+    {
+      "chance": 0.5,
+      "item": "dragnpets:tropical_fish_roe"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

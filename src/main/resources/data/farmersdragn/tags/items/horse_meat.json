@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "dragnlivestock:horse", "required": false },
+    { "id": "dragnlivestock:horse_rib_steak", "required": false },
+    { "id": "dragnlivestock:horse_sirloin_steak", "required": false }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "farmersdragn:goat_meat"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "farmersdragn:chevon_stew_classic"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

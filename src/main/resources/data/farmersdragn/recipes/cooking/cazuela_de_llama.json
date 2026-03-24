@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "farmersdragn:llama_meat"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "farmersdragn:cazuela_de_llama"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "dragnlivestock:caribou"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "tag": "farmersdragn:cheese_cut"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "farmersdragn:caribou_harvest_hash"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

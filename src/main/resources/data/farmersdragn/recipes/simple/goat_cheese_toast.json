@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmersdragn:goat_cheese_cut"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdragn:goat_cheese_toast"
+  }
+}

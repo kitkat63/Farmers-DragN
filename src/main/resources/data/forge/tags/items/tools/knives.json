@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "hearthandharvest:flint_cleaver", "required": false },
+    { "id": "hearthandharvest:iron_cleaver", "required": false },
+    { "id": "hearthandharvest:golden_cleaver", "required": false },
+    { "id": "hearthandharvest:diamond_cleaver", "required": false },
+    { "id": "hearthandharvest:netherite_cleaver", "required": false }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:caribou_sirloin_steak"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "dragnlivestock:game_strips"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

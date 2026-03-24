@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "dragnlivestock:cheese", "required": false },
+    { "id": "dragnlivestock:goat_cheese", "required": false },
+    { "id": "dragnlivestock:llama_cheese", "required": false },
+    { "id": "dragnlivestock:sheep_cheese", "required": false },
+    { "id": "hearthandharvest:cheddar_cheese_wheel", "required": false },
+    { "id": "hearthandharvest:goat_cheese_wheel", "required": false },
+    { "id": "brewinandchewin:flaxen_cheese_wheel", "required": false },
+    { "id": "brewinandchewin:scarlet_cheese_wheel", "required": false }
+  ]
+}

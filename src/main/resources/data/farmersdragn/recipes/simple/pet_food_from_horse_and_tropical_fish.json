@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:horse"
+    },
+    {
+      "item": "dragnpets:tropical_fish_fillet"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdelight:dog_food"
+  }
+}

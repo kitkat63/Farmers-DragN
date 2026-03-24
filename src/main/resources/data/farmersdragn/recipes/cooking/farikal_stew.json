@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "farmersdragn:mutton_style_meat"
+    },
+    {
+      "tag": "farmersdragn:cabbage_items"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "farmersdragn:farikal_stew"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

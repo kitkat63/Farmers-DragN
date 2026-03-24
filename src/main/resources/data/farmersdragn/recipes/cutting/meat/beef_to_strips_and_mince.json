@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "dragnlivestock:beef_strips"
+    },
+    {
+      "count": 1,
+      "item": "farmersdelight:minced_beef"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:pork_tenderloin"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "dragnlivestock:pork_strips"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

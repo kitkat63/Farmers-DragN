@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "farmersdragn:rabbit_backstrap"
+    },
+    {
+      "item": "farmersdragn:rabbit_backstrap"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdragn:creamy_mushroom_braised_loin"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

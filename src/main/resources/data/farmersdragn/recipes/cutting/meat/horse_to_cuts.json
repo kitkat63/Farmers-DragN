@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dragnlivestock:horse"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "dragnlivestock:horse_rib_steak"
+    },
+    {
+      "count": 2,
+      "item": "dragnlivestock:horse_sirloin_steak"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}

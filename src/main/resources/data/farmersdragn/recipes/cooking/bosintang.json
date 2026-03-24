@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "dragnpets:dog"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdragn:bosintang"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

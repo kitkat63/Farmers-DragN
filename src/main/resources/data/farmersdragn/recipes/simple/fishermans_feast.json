@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    [
+      {
+        "item": "farmersdelight:cod_slice"
+      },
+      {
+        "item": "farmersdelight:salmon_slice"
+      },
+      {
+        "item": "dragnpets:tropical_fish_fillet"
+      }
+    ],
+    [
+      {
+        "item": "farmersdelight:cod_slice"
+      },
+      {
+        "item": "farmersdelight:salmon_slice"
+      },
+      {
+        "item": "dragnpets:tropical_fish_fillet"
+      }
+    ],
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "tag": "farmersdragn:fish_roe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdragn:fishermans_feast"
+  }
+}

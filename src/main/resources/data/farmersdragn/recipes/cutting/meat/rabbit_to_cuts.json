@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:rabbit"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "farmersdragn:rabbit_backstrap"
+    },
+    {
+      "count": 2,
+      "item": "dragnlivestock:rabbit_thigh"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}
