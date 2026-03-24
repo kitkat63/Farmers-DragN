@@ -1,0 +1,85 @@
+name: Build Farmer's DragN Mod
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["master", "main"]
+  pull_request:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Initialize build log
+        run: touch build.log
+
+      - name: Sanitize gradle.properties for CI
+        run: |
+          # Avoid machine-specific Java home overrides from old commits/branches
+          sed -i '/^org.gradle.java.home=/d' gradle.properties
+          echo "Sanitized gradle.properties:" 
+          cat gradle.properties
+
+      - name: Set up Gradle 8.14.3
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 8.14.3
+
+      - name: Environment diagnostics (system gradle)
+        run: |
+          java -version
+          gradle -version
+          curl -I --retry 3 --retry-all-errors https://maven.minecraftforge.net/ || true
+          curl -I --retry 3 --retry-all-errors https://files.minecraftforge.net/maven || true
+
+      - name: Build (capture full log)
+        id: build_step
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          chmod +x ./scripts/build_mod.sh
+          ./scripts/build_mod.sh --info 2>&1 | tee build.log
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: farmersdragn-build-log
+          path: build.log
+          if-no-files-found: warn
+
+      - name: Upload mod jars
+        if: steps.build_step.outcome == 'success' && hashFiles('build/libs/*.jar') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: farmersdragn-build-libs
+          path: build/libs/*.jar
+          if-no-files-found: warn
+
+      - name: Fail if build failed
+        if: steps.build_step.outcome != 'success'
+        run: |
+          echo "Build failed. Download artifact 'farmersdragn-build-log' to see full diagnostics."
+          exit 1
+
+      - name: Workflow summary
+        if: always()
+        run: |
+          echo "## Build output" >> $GITHUB_STEP_SUMMARY
+          echo "- Check this run's **Artifacts** section for:" >> $GITHUB_STEP_SUMMARY
+          echo "  - farmersdragn-build-log (always)" >> $GITHUB_STEP_SUMMARY
+          echo "  - farmersdragn-build-libs (on success)" >> $GITHUB_STEP_SUMMARY
