@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "farmersdragn:item/creamy_mushroom_braised_loin"
+  }
+}
