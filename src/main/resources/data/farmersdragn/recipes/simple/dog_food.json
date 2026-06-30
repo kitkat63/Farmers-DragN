@@ -12,7 +12,7 @@
       "item": "minecraft:carrot"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "farmersdragn:eggs"
     }
   ],
   "result": {
