@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:ham"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "dragnlivestock:pork_strips"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:bone"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "farmersdelight:block.cutting_board.knife"
+}
