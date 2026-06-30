@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "minecraft:porkchop"
+      "item": "dragnlivestock:pork_rib_chop"
     }
   ],
   "result": [
@@ -12,7 +12,7 @@
     },
     {
       "count": 1,
-      "item": "farmersdelight:ham"
+      "item": "minecraft:bone"
     }
   ],
   "tool": {
