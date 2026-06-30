@@ -3,7 +3,7 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "minecraft:egg"
+      "tag": "farmersdragn:eggs"
     },
     {
       "item": "dragnpets:cat"
