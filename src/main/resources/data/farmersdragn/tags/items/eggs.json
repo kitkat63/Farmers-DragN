@@ -2,6 +2,13 @@
   "replace": false,
   "values": [
     "minecraft:egg",
-    "#farmersdragn:dragn_eggs"
+    { "id": "dragnlivestock:egg", "required": false },
+    { "id": "dragnlivestock:cream_legbar_egg", "required": false },
+    { "id": "dragnlivestock:marans_egg", "required": false },
+    { "id": "dragnlivestock:olive_egger_egg", "required": false },
+    { "id": "dragnlivestock:orpington_egg", "required": false },
+    { "id": "dragnlivestock:polish_egg", "required": false },
+    { "id": "dragnlivestock:sussex_silkie_egg", "required": false },
+    { "id": "dragnlivestock:wynadotte_egg", "required": false }
   ]
 }

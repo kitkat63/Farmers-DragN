@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "dragnlivestock:pork_rib"
+      "item": "dragnlivestock:pork_rib_chop"
     }
   ],
   "result": [
